@@ -44,7 +44,14 @@ lah=Button(aken,
           bg="green",
           relief=GROOVE,
           width=10)
+res=Label(aken,
+          text="Lahendus",
+          bg="yellow",
+          font="Arial 10",
+          width=50,
+          height=3)
 
+res.pack(side=BOTTOM)
 lbl.pack()
 a.pack(side=LEFT)
 t1.pack(side=LEFT)
